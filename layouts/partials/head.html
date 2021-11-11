@@ -14,10 +14,21 @@
   {{ end }}
 
   <style>
-    :root{
-      --primary-color:{{ site.Params.theme_color }};
+    :root {
+      --color-dark: {{ site.Params.color_dark }};
+      --color-light: {{ site.Params.color_light }};
+      --color-primary-dark: {{ site.Params.color_primary_dark }};
+      --color-primary-light: {{ site.Params.color_primary_light }};
+      --color-highlight-dark: {{ site.Params.color_highlight_dark }};
+      --color-highlight-light: {{ site.Params.color_highlight_light }};
+      --color-alternative-dark: {{ site.Params.color_alternative_dark }};
+      --color-alternative-light: {{ site.Params.color_alternative_light }};
     }
   </style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
 
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range site.Params.plugins.css }}

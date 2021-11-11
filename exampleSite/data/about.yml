@@ -1,41 +1,44 @@
 # work process
 work_process:
-  enable : true
-  title : "Work Process"
+  enable: true
+  title: Project Lifecycle
   item:
-  - title : "Research and Plan"
-    icon : "images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
-  - title : "Design and Develop"
-    icon : "images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
-  - title : "Deliver"
-    icon : "images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title: Introductory Call
+      icon: 'images/icons/plan.png'
+      content:
+        Hop on a quick 30-minute call with some of our team members to evaluate our options together.
 
+    - title: 'Design & Develop'
+      icon: 'images/icons/design.png'
+      content:
+        We'll work with you on your project and keep you updated every step of
+        the way.
+
+    - title: 'Launch!'
+      icon: 'images/icons/print.png'
+      content:
+        Once everything is ready, we'll support the launch of the product and
+        throughout its lifecycle.
 
 # team
 team:
   enable: true
-  title : "My Team"
+  title: Team
   team_member:
-    - title : "Jack Schenziwe"
-      image : "images/team/member-1.png"
-      designation : "Project Manager"
-      
-    - title : "Julias Carlie"
-      image : "images/team/member-2.png"
-      designation : "Web Developer"
-      
-    - title : "John Doe"
-      image : "images/team/member-3.png"
-      designation : "Designer"
+    - title: Hatchet
+      image: 'images/team/anonymous-1.jpg'
+      designation: Tech
 
+    - title: Seabass
+      image: 'images/team/anonymous-3.jpg'
+      designation: Bizops
+
+    - title: Clarysoul
+      image: 'images/team/anonymous-2.jpg'
+      designation: Art
 
 # client logo slider
 clients_logo_slider:
-  enable : true
-  title : "My Clients"
+  enable: false
+  title: 'My Clients'
   # clients logo comes from 'data/homepage.yml' file

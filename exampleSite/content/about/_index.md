@@ -6,8 +6,10 @@ author_signature : "images/about/signature.png"
 draft: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+FreshlyMinted's mission is to make blockchain technology accessible to you and your business.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+Blockchain-based cryptocurrencies are the future of fintech, and we're still early in its development. Our team of experts is prepared to launch your next endeavor into crypto, whether NFTs, DeFi, or whatever application you can imagine!
 
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+We don't just write smart contracts&mdash;we support you from ideation through deployment and beyond. We're equipped to help you with art, marketing, coding, deployment, hype, maintenance, and growth.
+
+If you're ready to start on the journey to decentralization, fill out our [onboarding form](https://forms.gle/kK9t3kuWdrqGGQKg6).
