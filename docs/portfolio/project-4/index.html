@@ -26,7 +26,8 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
   <!-- plugins -->
   
@@ -116,6 +117,7 @@
 
 
 <section class="page-title bg-primary position-relative overflow-hidden">
+  <div id="particles-js"></div>
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
@@ -140,7 +142,7 @@
         <div class="row mx-0">
           <div class="col-sm-6 mb-5">
             <div class="project-meta">
-              <i class="ti-calendar"></i>
+              <ion-icon name="ti-calendar"></ion-icon>
               <div class="ml-3">
                 <h4>Date</h4>
                 <p>May 12, 2019</p>
@@ -150,7 +152,7 @@
           
           <div class="col-sm-6 mb-5">
             <div class="project-meta">
-              <i class="ti-user"></i>
+              <ion-icon class="ti-user"></ion-icon>
               <div class="ml-3">
                 <h4>Client</h4>
                 <p>John Doe</p>
@@ -160,7 +162,7 @@
           
           <div class="col-sm-6 mb-5">
             <div class="project-meta">
-              <i class="ti-folder"></i>
+              <ion-icon name="folder-open"></i>
               <div class="ml-3">
                 <h4>Categories</h4>
                 <p>Design</p>
@@ -170,7 +172,7 @@
           
           <div class="col-sm-6 mb-5">
             <div class="project-meta">
-              <i class="ti-link"></i>
+              <ion-icon name="link"></ion-icon>
               <div class="ml-3">
                 <h4>Project Link</h4>
                 <p><a href="https://themefisher.com/">https://themefisher.com/</a></p>
@@ -209,7 +211,13 @@ consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porr
 <footer class="bg-dark footer-section">
   
   <div class="footer-bottom text-center py-5">
-    <p class="mb-0 text-light">Copyright © 2021 FreshlyMinted LLC</p>
+    <div class="text-light mb-2">
+      <a href="https://twitter.com/FreshlyMintedHQ" target="_blank" rel="noopener">
+        <span class="sr-only">Twitter</span>
+        <ion-icon name="logo-twitter" size="large"></ion-icon>
+      </a>
+    </div>
+    <p class="mb-0 text-secondary text-small">Copyright © 2021 FreshlyMinted LLC</p>
   </div>
 </footer>
 
@@ -233,6 +241,8 @@ consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porr
 
 
 <!-- Main Script -->
+
+<script src="https://freshlyminted.io/js/particles.min.min.js"></script>
 
 <script src="https://freshlyminted.io/js/script.min.js"></script>
 

@@ -447,9 +447,45 @@ textarea.form-control {
   color: var(--color-light);
 }
 
+.mintify {
+  /* font-weight: 900; */
+  display: block;
+  margin-bottom: 20px;
+  font-size: 7rem;
+  font-family: "Dancing Script", cursive;
+  text-shadow:
+    1px 2px 0 var(--color-primary-dark),
+    2px 4px 0 var(--color-alternative-light),
+    3px 6px 0 var(--color-highlight-light)
+  ;
+}
+
+.subheader {
+  font-size: 4rem;
+  font-weight: normal;
+  opacity: 0.9;
+  padding-left: 3rem;
+}
+
 .hero-area {
   padding: 250px 0 200px;
   position: relative;
+  /* background: var(--color-primary-dark); */
+  background: radial-gradient(to bottom right, var(--color-primary-dark), var(--color-dark));
+  background: -moz-radial-gradient(top left, var(--color-primary-dark), var(--color-dark));
+  background: -webkit-radial-gradient(top left, var(--color-primary-dark), var(--color-dark));
+  /* background: -moz-radial-gradient(top left, var(--color-primary-dark), #05012A); */
+  /* background: radial-gradient(to bottom right, var(--color-primary-dark), #05012A); */
+}
+
+#particles-js {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
 }
 
 @media (max-width: 767px) {

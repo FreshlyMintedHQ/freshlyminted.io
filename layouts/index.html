@@ -1,7 +1,8 @@
 {{ define "main" }}
 
   <!-- hero area -->
-  <section class="hero-area bg-primary overflow-hidden">
+  <section class="hero-area overflow-hidden">
+    <div id="particles-js"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-11 mx-auto">
@@ -13,7 +14,7 @@
     <!-- social icons -->
     <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
       {{ range site.Params.social }}
-      <li class="mb-3"><a class="text-white" href="{{.URL | safeURL }}"><i class="{{.icon}}"></i></a></li>
+      <li class="mb-3"><a class="text-white" href="{{.URL | safeURL }}"><ion-icon name="{{.icon}}"></ion-icon></a></li>
       {{ end }}
     </ul>
     <!-- /social icon -->
@@ -140,7 +141,7 @@
         <div class="col-md-4 mb-4">
           <div class="card {{if .highlighted }} active-bg-primary {{end}} hover-shadow shadow">
             <div class="card-body text-center px-4 py-5">
-              <i class="{{.icon }} icon mb-5 d-inline-block"></i>
+              <ion-icon size="large" class="mb-4" name="{{.icon}}"></ion-icon>
               <h4 class="mb-4">{{.title}}</h4>
               <p>{{.content | markdownify}}</p>
             </div>
@@ -198,7 +199,8 @@
           {{ range .item }}
           <!-- slider-item -->
           <div class="text-center testimonial-content">
-            <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+            <!-- <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i> -->
+            <ion-icon name="quote" size="large" class="text-white mb-4"></ion-icon>
             <p class="text-white mb-4">{{.content | markdownify}}</p>
             <img class="img-fluid rounded-circle mb-4 d-inline-block" src="{{.image | absURL }}" alt="client-image">
             <h4 class="text-white">{{.name }}</h4>

@@ -1,7 +1,7 @@
 # banner
 banner:
-  title: Freshly Minted<br />
-    Blockchain Solutions
+  title: <div class="mintify">freshly minted</div>
+    <div class="subheader">blockchain solutions</div>
 
 # about
 about:
@@ -84,21 +84,21 @@ service:
   title: 'Services'
   item:
     - title: 'Art & Visual Media'
-      icon: 'ti-palette'
+      icon: 'images'
       content:
         From generative NFT art to logos, videos, and animation, we can help you add an
         artistic flair to your project.
       highlighted: false
 
     - title: 'Smart Contracts'
-      icon: 'ti-write'
+      icon: 'document'
       content:
         Our smart contracts are checked for security and efficiency, and follow the latest
         standards.
       highlighted: true
 
     - title: 'Community Building'
-      icon: 'ti-comments-smiley'
+      icon: 'chatbubbles'
       content:
         Your project needs strong and dedicated community support. That's what our
         social media & marketing team is for.
