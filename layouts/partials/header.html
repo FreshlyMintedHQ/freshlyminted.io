@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="{{ site.BaseURL }}">
       {{ if site.Params.logo }}
-      <img src="{{ site.Params.logo | absURL }}" alt="{{site.Title}}">
+      <img src="{{ site.Params.logo | absURL }}" style="max-height: 5rem" alt="{{site.Title}}">
       {{ else }}
       <h3 class="text-white font-secondary">{{site.Title}}</h3>
       {{ end }}
@@ -14,6 +14,18 @@
 
     <div class="collapse navbar-collapse text-center" id="navigation">
       <ul class="navbar-nav ml-auto">
+        <li class="nav-item d-inline-flex justify-content-center">
+          <a
+            class="nav-link text-decoration-none px-2"
+            title="Twitter"
+            href="https://twitter.com/FreshlyMintedHQ"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="sr-only">Twitter</span>
+            <ion-icon name="logo-twitter" style="font-size: 1.5rem;"></ion-icon>
+          </a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ site.BaseURL }}">{{ with site.Params.Home }} {{ . }} {{ end }}</a>
         </li>

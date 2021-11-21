@@ -39,8 +39,8 @@ name = "News"
 weight = 2
 
 [[menu.main]]
-URL = "portfolio"
-name = "Portfolio"
+URL = "projects"
+name = "Projects"
 weight = 3
 
 [[menu.main]]
@@ -52,7 +52,7 @@ weight = 4
 # default parameters
 [params]
 home = "Home"
-logo = ""
+logo = "images/logo.svg"
 # theme color
 color_dark = "#06070F"
 color_light = "#F2F6FA"

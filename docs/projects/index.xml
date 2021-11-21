@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Freshly Minted</title>
-    <link>https://freshlyminted.io/</link>
-    <description>Recent content on Freshly Minted</description>
+    <title>Projects on Freshly Minted</title>
+    <link>https://freshlyminted.io/projects/</link>
+    <description>Recent content in Projects on Freshly Minted</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Nov 2021 12:00:00 -0600</lastBuildDate><atom:link href="https://freshlyminted.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>What are NFTs?</title>
-      <link>https://freshlyminted.io/news/what-are-nfts/</link>
-      <pubDate>Mon, 15 Nov 2021 12:00:00 -0600</pubDate>
-      
-      <guid>https://freshlyminted.io/news/what-are-nfts/</guid>
-      <description>You&amp;rsquo;ve probably heard before: NFT stands for &amp;ldquo;non-fungible token&amp;rdquo;. But what does that mean?</description>
-    </item>
-    
+    <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate><atom:link href="https://freshlyminted.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Artwork Design</title>
       <link>https://freshlyminted.io/projects/project-1/</link>

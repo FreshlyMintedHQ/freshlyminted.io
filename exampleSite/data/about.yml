@@ -6,7 +6,8 @@ work_process:
     - title: Introductory Call
       icon: 'images/icons/plan.png'
       content:
-        Hop on a quick 30-minute call with some of our team members to evaluate our options together.
+        Hop on a quick 30-minute call with some of our team members to evaluate
+        our options together.
 
     - title: 'Design & Develop'
       icon: 'images/icons/design.png'

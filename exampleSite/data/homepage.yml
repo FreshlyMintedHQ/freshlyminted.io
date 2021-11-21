@@ -14,7 +14,7 @@ about:
   button:
     enable: true
     label: 'Learn more'
-    URL: 'services'
+    URL: 'about'
 
 # skill
 skill:
@@ -104,12 +104,12 @@ service:
         social media & marketing team is for.
       highlighted: false
 
-# portfolio
-portfolio:
+# projects
+projects:
   enable: false
-  title: 'Portfolio'
+  title: 'Projects'
   item_show: 5
-  # portfolio item comes from 'data/portfolio.yml' item.
+  # projects item comes from 'data/projects.yml' item.
 
 # testimonial
 testimonial:
