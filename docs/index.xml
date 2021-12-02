@@ -6,7 +6,16 @@
     <description>Recent content on Freshly Minted</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Nov 2021 12:00:00 -0600</lastBuildDate><atom:link href="https://freshlyminted.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Dec 2021 12:00:00 -0600</lastBuildDate><atom:link href="https://freshlyminted.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The generative NFT recipe</title>
+      <link>https://freshlyminted.io/news/how-generative-nfts-are-made/</link>
+      <pubDate>Wed, 01 Dec 2021 12:00:00 -0600</pubDate>
+      
+      <guid>https://freshlyminted.io/news/how-generative-nfts-are-made/</guid>
+      <description>An increasing number of celebrities from Paris Hilton to Stephen Curry are using NFTs as their profile pictures.</description>
+    </item>
+    
     <item>
       <title>What are NFTs?</title>
       <link>https://freshlyminted.io/news/what-are-nfts/</link>
@@ -14,87 +23,6 @@
       
       <guid>https://freshlyminted.io/news/what-are-nfts/</guid>
       <description>You&amp;rsquo;ve probably heard before: NFT stands for &amp;ldquo;non-fungible token&amp;rdquo;. But what does that mean?</description>
-    </item>
-    
-    <item>
-      <title>Artwork Design</title>
-      <link>https://freshlyminted.io/projects/project-1/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://freshlyminted.io/projects/project-1/</guid>
-      <description>Project Requirements Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
-    </item>
-    
-    <item>
-      <title>Artwork Design</title>
-      <link>https://freshlyminted.io/projects/project-2/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://freshlyminted.io/projects/project-2/</guid>
-      <description>Project Requirements Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
-    </item>
-    
-    <item>
-      <title>Artwork Design</title>
-      <link>https://freshlyminted.io/projects/project-3/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://freshlyminted.io/projects/project-3/</guid>
-      <description>Project Requirements Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
-    </item>
-    
-    <item>
-      <title>Artwork Design</title>
-      <link>https://freshlyminted.io/projects/project-4/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://freshlyminted.io/projects/project-4/</guid>
-      <description>Project Requirements Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
-    </item>
-    
-    <item>
-      <title>Artwork Design</title>
-      <link>https://freshlyminted.io/projects/project-5/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://freshlyminted.io/projects/project-5/</guid>
-      <description>Project Requirements Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
-    </item>
-    
-    <item>
-      <title>Artwork Design</title>
-      <link>https://freshlyminted.io/projects/project-6/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://freshlyminted.io/projects/project-6/</guid>
-      <description>Project Requirements Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
-    </item>
-    
-    <item>
-      <title>Artwork Design</title>
-      <link>https://freshlyminted.io/projects/project-7/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://freshlyminted.io/projects/project-7/</guid>
-      <description>Project Requirements Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
-    </item>
-    
-    <item>
-      <title>Artwork Design</title>
-      <link>https://freshlyminted.io/projects/project-8/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://freshlyminted.io/projects/project-8/</guid>
-      <description>Project Requirements Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
-    </item>
-    
-    <item>
-      <title>Artwork Design</title>
-      <link>https://freshlyminted.io/projects/project-9/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      
-      <guid>https://freshlyminted.io/projects/project-9/</guid>
-      <description>Project Requirements Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     
   </channel>

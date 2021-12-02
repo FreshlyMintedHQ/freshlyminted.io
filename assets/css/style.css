@@ -461,10 +461,61 @@ textarea.form-control {
 }
 
 .subheader {
-  font-size: 4rem;
-  font-weight: normal;
+  font-size: 3.5rem;
+  font-weight: bold;
   opacity: 0.9;
-  padding-left: 3rem;
+  padding-left: 3.5rem;
+}
+
+.hero-image {
+  position: absolute;
+  top: 50%;
+  right: 6rem;
+  min-width: 300px;
+  width: 20vw;
+  max-width: 400px;
+  animation: bounce 2s ease-out infinite alternate;
+}
+
+@media (max-width: 991px) {
+  .hero-image {
+    display: none;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0%) rotate(0deg);
+  }
+
+  90% {
+    transform: translateY(-6%) rotate(0deg);
+  }
+
+  95% {
+    transform: translateY(-6%) rotate(2deg);
+  }
+
+  100% {
+    transform: translateY(-6%) rotate(-2deg);
+  }
+}
+
+.tagline {
+  margin-top: 4rem;
+  font-size: 1rem;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  width: 100%;
+  opacity: 0.75;
+  font-family: "Merienda", cursive;
+  color: var(--color-primary-light);
+}
+
+.tagline::before, .tagline::after {
+  content: '~';
+  padding: 0 15px;
 }
 
 .hero-area {
@@ -782,6 +833,10 @@ blockquote {
 
 .content * {
   margin-bottom: 20px;
+}
+
+.content img {
+  max-width: 100%;
 }
 
 .content strong {

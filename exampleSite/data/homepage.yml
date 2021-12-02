@@ -1,7 +1,7 @@
 # banner
 banner:
   title: <div class="mintify">freshly minted</div>
-    <div class="subheader">blockchain solutions</div>
+    <div class="subheader text-monospace">NFT solutions</div>
 
 # about
 about:
@@ -84,21 +84,21 @@ service:
   title: 'Services'
   item:
     - title: 'Art & Visual Media'
-      icon: 'images'
+      icon: 'fas fa-images'
       content:
         From generative NFT art to logos, videos, and animation, we can help you add an
         artistic flair to your project.
       highlighted: false
 
     - title: 'Smart Contracts'
-      icon: 'document'
+      icon: 'fas fa-file-signature'
       content:
         Our smart contracts are checked for security and efficiency, and follow the latest
         standards.
       highlighted: true
 
     - title: 'Community Building'
-      icon: 'chatbubbles'
+      icon: 'far fa-comments'
       content:
         Your project needs strong and dedicated community support. That's what our
         social media & marketing team is for.
@@ -114,22 +114,37 @@ projects:
 # testimonial
 testimonial:
   enable: true
-  title: 'Testimonials'
+  title: 'NFT Buzz'
   item:
-    - name: 'Jesica Gomez'
-      image: 'images/testimonial/client-1.png'
-      designation: 'CEO, Founder'
-      content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+    - name: 'Mark Cuban'
+      link: 'https://podcastnotes.org/the-quest-with-justin-kan/mark-cuban-on-the-quest-with-justin-kan/'
+      designation: 'Billionaire Investor'
+      content:
+        You get all of the benefits of owning a physical good without the
+        hassle&hellip; I think it’s going to completely turn upside down the
+        music industry and the movie industry.
 
-    - name: 'Shirley Scot'
-      image: 'images/testimonial/client-1.png'
-      designation: 'CEO, Founder'
-      content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+    - name: 'Oana Vlad'
+      link: 'https://www.coca-colacompany.com/news/coca-cola-nft-auction-fetches-more-than-575000'
+      designation: 'Global Senior Brand Director, Coca-Cola Trademark'
+      content:
+        \[Coca-Cola's NFT ventures] helped create a strong buzz both in the crypto
+        community and with business, lifestyle and tech media, and also helped
+        bring new, young audiences to our Coke Trademark social media channels.
 
-    - name: 'Jessica Julie'
-      image: 'images/testimonial/client-1.png'
-      designation: 'CEO, Founder'
-      content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+    - name: 'Brian Armstrong'
+      link: 'https://inshorts.com/en/news/nfts-going-to-be-very-large-area-for-crypto-in-future-coinbase-ceo-1636630506976'
+      designation: 'Coinbase CEO'
+      content:
+        We are very excited about NFTs, this is going to be a very large area
+        for crypto in the future, and it already is today.
+
+    - name: 'The Drum'
+      link: 'https://www.thedrum.com/opinion/2021/11/22/five-the-biggest-companies-already-using-nfts'
+      designation: 'Marketing Publication'
+      content:
+        Brands not having an NFT strategy right now is like being a brand in
+        1997 and not developing a website strategy.
 
 # client logo slider
 clients_logo_slider:

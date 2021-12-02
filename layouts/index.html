@@ -10,11 +10,12 @@
         </div>
       </div>
     </div>
+    <img src="{{ "images/mint.png" | absURL }}" class="hero-image" alt="Friendly Freshly-Minted Mint Man">
     <!-- insert hero background here -->
     <!-- social icons -->
     <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
       {{ range site.Params.social }}
-      <li class="mb-3"><a class="text-white" href="{{.URL | safeURL }}"><ion-icon name="{{.icon}}"></ion-icon></a></li>
+      <li class="mb-3"><a class="text-white" href="{{.URL | safeURL }}"><i class="{{.icon}}"></i></a></li>
       {{ end }}
     </ul>
     <!-- /social icon -->
@@ -141,7 +142,7 @@
         <div class="col-md-4 mb-4">
           <div class="card {{if .highlighted }} active-bg-primary {{end}} hover-shadow shadow">
             <div class="card-body text-center px-4 py-5">
-              <ion-icon size="large" class="mb-4" name="{{.icon}}"></ion-icon>
+              <i class="mb-4 {{.icon}}"></i>
               <h4 class="mb-4">{{.title}}</h4>
               <p>{{.content | markdownify}}</p>
             </div>
@@ -200,10 +201,18 @@
           <!-- slider-item -->
           <div class="text-center testimonial-content">
             <!-- <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i> -->
-            <ion-icon name="quote" size="large" class="text-white mb-4"></ion-icon>
+            <i class="text-white mb-4 fas fa-quote-left"></i>
             <p class="text-white mb-4">{{.content | markdownify}}</p>
+            {{ if .image }}
             <img class="img-fluid rounded-circle mb-4 d-inline-block" src="{{.image | absURL }}" alt="client-image">
-            <h4 class="text-white">{{.name }}</h4>
+            {{ end }}
+            <h4 class="text-white">
+            {{ if .link }}
+              <a href="{{ .link }}" class="text-white" style="text-decoration: underline" target="_blank" rel="noopener">{{ .name }}</a>
+            {{ else }}
+              {{ .name }}
+            {{ end }}
+              </h4>
             <h6 class="text-light mb-4">{{ .designation }}</h6>
           </div>
           {{ end }}

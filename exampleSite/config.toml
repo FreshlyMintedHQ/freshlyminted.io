@@ -38,10 +38,10 @@ URL = "news"
 name = "News"
 weight = 2
 
-[[menu.main]]
-URL = "projects"
-name = "Projects"
-weight = 3
+# [[menu.main]]
+# URL = "projects"
+# name = "Projects"
+# weight = 3
 
 [[menu.main]]
 URL = "https://forms.gle/kK9t3kuWdrqGGQKg6"
