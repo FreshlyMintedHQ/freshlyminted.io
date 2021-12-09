@@ -3,7 +3,7 @@
 {{ partial "page-title.html" . }}
 
 <!-- about -->
-<section class="section container pt-5">
+<section class="section container pt-5 bg-nft-activities">
   <div class="lead">
     {{ .Content }}
   </div>
@@ -97,8 +97,9 @@
         <div class="card text-center">
           <img src="{{ .image | absURL }}" class="card-img-top">
           <div class="card-body">
-            <h4 class="card-title">{{.title }}</h4>
-            <p class="text-primary font-secondary">{{.designation }}</p>
+            <h4 class="card-title">{{ .title }}</h4>
+            <p class="text-primary font-secondary">{{ .designation }}</p>
+            <p class="small text-left">{{ .bio }}</p>
           </div>
         </div>
       </div>

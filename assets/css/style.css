@@ -460,6 +460,18 @@ textarea.form-control {
   ;
 }
 
+.bg-nft-activities::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 3rem;
+  background-image: url(/images/nft-activities.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
 .subheader {
   font-size: 3.5rem;
   font-weight: bold;
@@ -493,11 +505,11 @@ textarea.form-control {
   }
 
   95% {
-    transform: translateY(-6%) rotate(2deg);
+    transform: translateY(-6%) rotate(.5deg);
   }
 
   100% {
-    transform: translateY(-6%) rotate(-2deg);
+    transform: translateY(-6%) rotate(-.5deg);
   }
 }
 

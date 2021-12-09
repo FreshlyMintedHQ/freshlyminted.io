@@ -27,16 +27,34 @@ team:
   title: Team
   team_member:
     - title: Hatchet
-      image: 'images/team/anonymous-1.jpg'
+      image: 'images/team/mint-hatchet.png'
       designation: Tech
+      bio:
+        With over a decade of programming experience, Hatchet can do anything
+        from full-stack web to smart contract programming, and everything in
+        between.
 
     - title: Seabass
-      image: 'images/team/anonymous-3.jpg'
+      image: 'images/team/mint-seabass.png'
       designation: Bizops
+      bio:
+        Seabass is the head of business operations. He has experience starting
+        a successful sports media business, while also specializing in digital
+        marketing, social media and data science. He will make sure your
+        project stays on track through every step of the process, and handle
+        all things business related. He will also help build a community around
+        your project and make sure it gets the exposure it needs to be
+        successful!
 
-    - title: Clarysoul
-      image: 'images/team/anonymous-2.jpg'
+    - title: Clarissa
+      image: 'images/team/mint-clarissa.png'
       designation: Art
+      bio:
+        Our designer Clarissa is an experienced traditional and digital
+        commission artist who has worked on many generative NFT profile-picture
+        style projects with a 100% sellout rate. She is well versed in many
+        different art styles, and can adapt to your vision to turn your brand
+        into NFT masterpieces!
 
 # client logo slider
 clients_logo_slider:
