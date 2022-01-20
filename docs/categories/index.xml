@@ -5,6 +5,43 @@
     <link>https://freshlyminted.io/categories/</link>
     <description>Recent content in Categories on Freshly Minted</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://freshlyminted.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Jan 2022 12:14:34 +0600</lastBuildDate><atom:link href="https://freshlyminted.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>art</title>
+      <link>https://freshlyminted.io/categories/art/</link>
+      <pubDate>Wed, 19 Jan 2022 12:14:34 +0600</pubDate>
+      
+      <guid>https://freshlyminted.io/categories/art/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>collectible</title>
+      <link>https://freshlyminted.io/categories/collectible/</link>
+      <pubDate>Wed, 19 Jan 2022 12:14:34 +0600</pubDate>
+      
+      <guid>https://freshlyminted.io/categories/collectible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nft</title>
+      <link>https://freshlyminted.io/categories/nft/</link>
+      <pubDate>Wed, 19 Jan 2022 12:14:34 +0600</pubDate>
+      
+      <guid>https://freshlyminted.io/categories/nft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pfp</title>
+      <link>https://freshlyminted.io/categories/pfp/</link>
+      <pubDate>Wed, 19 Jan 2022 12:14:34 +0600</pubDate>
+      
+      <guid>https://freshlyminted.io/categories/pfp/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Freshly Minted</title>
+    <link>https://freshlyminted.io/projects/</link>
+    <description>Recent content in Projects on Freshly Minted</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Jan 2022 12:14:34 +0600</lastBuildDate><atom:link href="https://freshlyminted.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EncourageMINTs</title>
+      <link>https://freshlyminted.io/projects/encouragemints/</link>
+      <pubDate>Wed, 19 Jan 2022 12:14:34 +0600</pubDate>
+      
+      <guid>https://freshlyminted.io/projects/encouragemints/</guid>
+      <description>About Have you felt down and in need of encouragement lately?</description>
+    </item>
+    
+  </channel>
+</rss>
