@@ -168,6 +168,20 @@ $(window).on('load', function () {
 		});
 	}
 
+	const animationParent = document.querySelector('.project-animation');
+	const animationImages = Array.from(animationParent.getElementsByClassName('project-animation__image'));
 
+	animationImages.forEach((e, i) => {
+		if (i !== 0)
+			e.style.opacity = '0';
+	});
+
+	let visibleIndex = 0;
+
+	setInterval(() => {
+		animationImages[visibleIndex].style.opacity = '0';
+		visibleIndex = (visibleIndex + 1) % animationImages.length;
+		animationImages[visibleIndex].style.opacity = '';
+	}, 2000);
 
 })(jQuery);

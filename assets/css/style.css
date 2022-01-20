@@ -472,6 +472,22 @@ textarea.form-control {
   background-size: contain;
 }
 
+.project-animation {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.project-animation__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  /* transition: opacity 0.065s ease-out; */
+  pointer-events: none;
+}
+
 .subheader {
   font-size: 3.5rem;
   font-weight: bold;
